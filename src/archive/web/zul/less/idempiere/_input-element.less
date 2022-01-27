@@ -1,0 +1,31 @@
+.z-combobox-disabled, .z-combobox[disabled] {
+	color: @textColorLight !important; 
+}
+
+.z-combobox-disabled > input {
+	color: @textColorLight !important;
+}
+
+.z-combobox-text-disabled {
+	background-color: @disabledBackgroundColor !important;
+}
+
+input:focus, textarea:focus, .z-combobox-input:focus, z-datebox-input:focus, select:focus {
+	border: 1px solid @inputFocusBorderColor;
+	background: @highlightColor;
+}
+
+.z-textbox[disabled], .z-intbox[disabled], .z-longbox[disabled], .z-doublebox[disabled], 
+.z-decimalbox[disabled], .z-datebox[disabled], .z-timebox[disabled] {
+	color: @textColorLight !important;
+}
+
+.z-select {
+	color: @inputColor;
+	border: 1px solid @inputBorderColor;
+	background: @inputBackgroundColor;
+}
+
+.z-select:focus {
+	background: @colorPrimaryLighter;
+}
